@@ -1,0 +1,11 @@
+name: bankomat_env
+channels:
+#  - pytorch
+#  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - thinker==1.1.1
+    - pytest==6.1.2
